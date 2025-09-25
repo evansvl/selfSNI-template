@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Login - MyWebApp</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="login-box">
+				<div class="logo">
+					<h2>MyWebApp</h2>
+				</div>
+				<h3>Welcome Back!</h3>
+				<p>Sign in to continue</p>
+				<form id="login-form">
+					<div class="input-group">
+						<label for="username">Email or Username</label>
+						<input type="text" id="username" name="username" required />
+					</div>
+					<div class="input-group">
+						<label for="password">Password</label>
+						<input type="password" id="password" name="password" required />
+					</div>
+					<div class="options">
+						<a href="#" class="forgot-password">Forgot Password?</a>
+					</div>
+					<button type="submit">Login</button>
+				</form>
+				<div class="separator">
+					<span>OR</span>
+				</div>
+				<div class="social-login">
+					<button class="social-btn google">
+						<i class="fab fa-google"></i> Sign in with Google
+					</button>
+					<button class="social-btn facebook">
+						<i class="fab fa-facebook-f"></i> Sign in with Facebook
+					</button>
+				</div>
+				<div class="signup-link">
+					<p>Don't have an account? <a href="#">Sign Up</a></p>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+
+		<div id="custom-alert" class="custom-alert-overlay" style="display: none">
+			<div class="custom-alert-box">
+				<p>Contact your administrator to log in.</p>
+				<button id="close-alert">OK</button>
+			</div>
+		</div>
+	</body>
+</html>
