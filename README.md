@@ -22,7 +22,3 @@ git clone https://github.com/evansvl/selfSNI-template.git
 ```
 
 This will create a new folder named `selfSNI-template` with all the project files inside.
-
-## Running the Project
-
-Once you have the files on your local machine, simply open the `index.html` file in your web browser to view the login page.
